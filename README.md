@@ -64,15 +64,18 @@ Frameworks:
 •	React.js
 
 -- Databases:
+
 •	MySQL
 •	MongoDB
 
 -- Operating Systems:
+
 •	Mac OSX
 •	Windows 
 •	Basic Linux CLI
 
 -- Other:
+
 •	SDLC
 •	Agile Methodology: Scrum, Kanban
 •	Heroku
