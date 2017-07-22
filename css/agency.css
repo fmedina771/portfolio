@@ -1,71 +1,4 @@
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-.snip1180 {
-  position: relative;
-  font-size: 38px;
-  color: #ffffff;
-  width: 72px;
-  margin: 40px;
-  height: 72px;
-  line-height: 72px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-}
-.snip1180 * {
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.snip1180:before,
-.snip1180:after {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.snip1180:before {
-  color: #ffffff;
-}
-.snip1180:after {
-  background: #333333;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border: 6px solid #000000;
-  content: '';
-  z-index: -1;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-.snip1180.blue:after {
-  border-color: #2980b9;
-  background-color: #123851;
-}
-.snip1180.yellow:after {
-  border-color: #f39c12;
-  background-color: #7f5006;
-}
-.snip1180.green:after {
-  border-color: #27ae60;
-  background-color: #104627;
-}
-.snip1180.navy:after {
-  border-color: #34495e;
-  background-color: #07090c;
-}
-.snip1180.red:after {
-  border-color: #c0392b;
-  background-color: #581a14;
-}
-.snip1180:hover:after,
-.snip1180 .hover:after {
-  border-color: transparent;
-  border-left-color: #ffffff !important;
-  border-right-color: #ffffff !important;
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
-}
+
 
 /*========================================
 ================Bootstrap===============
@@ -815,4 +748,10 @@ body {
   webkit-tap-highlight-color: #fed136;
 }
 
+.fa-stack:hover .fa-github {
+    color: yellow;
+}   
+.fa-stack:hover .fa-circle {
+    color: white;
+}
 
