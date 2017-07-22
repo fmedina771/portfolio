@@ -844,3 +844,7 @@ img::selection {
 img::-moz-selection {
     background: 0 0
 }
+
+.modal-content {
+	background: lightgrey;
+}
